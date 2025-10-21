@@ -1,0 +1,45 @@
+Projify, iç mekân planlama süreçlerini dijitalleştirerek gerçek dünyayla sanal dünyayı birleştiren yenilikçi bir projeksiyon sistemidir. Temel amacı, kullanıcıların yaşam alanlarını daha verimli, estetik ve ergonomik biçimde düzenlemelerine yardımcı olmaktır. Geleneksel yöntemlerde ev veya ofis tasarımı, genellikle kağıt planlar, iki boyutlu çizimler veya küçük ölçekli maketler üzerinden yapılır. Bu durum, ölçüsel hatalara, yanlış yerleşim kararlarına ve maliyetli tekrar düzenlemelere yol açabilir. Projify, bu süreci ortadan kaldırarak gerçek boyutlu, etkileşimli bir deneyim sunar.
+
+### Sistem Tanımı
+Projify bir donanım-yazılım bütünüdür. Donanım tarafında yüksek çözünürlüklü bir projektör, derinlik sensörleri, lazer mesafe ölçerler ve hareket algılayıcılar bulunur. Yazılım tarafında ise yapay zekâ, görüntü işleme ve 3D modelleme algoritmaları entegre çalışır. Kullanıcı, odasının veya evinin planını sisteme yüklediğinde Projify, bu planı ölçeklendirir ve projeksiyon yüzeyine gerçek boyutlarında yansıtır. Böylece kullanıcı, yaşam alanının sınırlarını fiziksel olarak deneyimleyebilir.
+
+Projify’nin temel farkı, klasik projeksiyon sistemlerinden farklı olarak, statik görüntü yansıtmakla kalmayıp ortam verilerini analiz etmesidir. Cihazın içindeki sensörler, zemin eğimini, duvar hizalarını ve mevcut mobilyaların konumunu algılar. Bu sayede projeksiyon görüntüsü otomatik olarak fiziksel mekâna hizalanır. Sistem, anlık kalibrasyon yaparak her yansıtmayı doğru ölçekle gerçekleştirir.
+
+### Kullanıcı Deneyimi
+Projify’nin arayüzü, kullanıcının teknoloji bilgisine bağlı olmaksızın kullanılabilecek kadar basittir. Kullanıcılar, mobil uygulama veya bilgisayar üzerinden odalarının planını yükler. Ardından sistem, bu planı otomatik olarak analiz eder ve projeksiyonla zemine yansıtır. Kullanıcılar, sanal mobilyaları elleriyle hareket ettirebilir, döndürebilir veya yeniden boyutlandırabilir. Böylece “bu koltuk buraya sığar mı?” sorusunun yanıtını anında alabilirler.
+
+Projify’nin etkileşimli yapısı, sadece konutlarda değil; mimarlık ofislerinde, mobilya mağazalarında, iç mimarlık derslerinde ve gayrimenkul tanıtımlarında da kullanılabilir. Örneğin, bir mobilya mağazası, Projify aracılığıyla müşterisine bir kanepeyi satın almadan önce evinde nasıl duracağını gösterebilir. Ya da bir mimarlık öğrencisi, tasarladığı planı gerçek boyutta zemin üzerinde sergileyebilir.
+
+### Teknolojik Altyapı
+Projify, veri işleme sürecinde derin öğrenme tabanlı segmentasyon modelleri kullanır. Görüntüdeki duvar, zemin, kapı ve pencere gibi öğeleri otomatik olarak ayırır. Bu sayede sistem, kullanıcıdan aldığı planın hangi bölgesine hangi objelerin yerleştirilebileceğini akıllıca belirler. Ayrıca, Projify’nin yapay zekâ modülü kullanıcı alışkanlıklarını öğrenebilir. Örneğin, kullanıcı genellikle minimalist mobilya tercih ediyorsa sistem önerilerini buna göre optimize eder.
+
+Projify’nin yazılım mimarisi modülerdir. Bu mimaride dört temel katman bulunur:
+1. **Giriş Katmanı:** Kullanıcı verilerinin (çizim, fotoğraf, plan) alındığı kısım.
+2. **İşleme Katmanı:** Görüntü analizi, plan ölçekleme, 3D dönüşüm ve hizalama algoritmalarının çalıştığı kısım.
+3. **Sunum Katmanı:** Projeksiyon görüntüsünün oluşturulduğu ve kullanıcı etkileşiminin gerçekleştiği kısım.
+4. **Öğrenme Katmanı:** Kullanıcı tercihleri, hatalar ve düzeltmeler üzerinden modelin kendini iyileştirdiği kısım.
+
+Projify’nin bu çok katmanlı mimarisi, hem performans hem de güvenlik açısından avantaj sağlar. Sistem, kullanıcı verilerini yerel olarak işler; bulut bağlantısı yalnızca yedekleme ve uzaktan erişim için kullanılır.
+
+### Sürdürülebilirlik Perspektifi
+Projify’nin geliştirilme motivasyonlarından biri, gereksiz kaynak kullanımını azaltmaktır. Maket üretimi, baskı ve prototip maliyetleri birçok endüstride çevresel yük oluşturur. Projify, fiziksel materyal kullanmadan tasarım sürecini dijitalleştirir. Bu da hem ekonomik hem ekolojik açıdan sürdürülebilir bir yaklaşımdır. Özellikle inşaat ve iç mimarlık sektöründe karbon ayak izinin düşürülmesi açısından önemli katkı sağlar.
+
+### Rekabet ve Pazarlama Stratejisi
+Projify, pazarda benzer çözümlerle kıyaslandığında farkını "gerçek boyutlu fiziksel deneyim" sunarak ortaya koyar. Sanal gerçeklik gözlükleri (VR) kullanıcıyı soyut bir dünyaya taşırken, Projify fiziksel dünyayı dijital bilgilerle zenginleştirir. Bu da onu artırılmış gerçeklik (AR) alanında benzersiz bir konuma getirir. Hedef pazarlar arasında iç mimarlık ofisleri, gayrimenkul şirketleri, mobilya üreticileri ve bireysel kullanıcılar bulunur.
+
+Projify’nin pazarlama stratejisi, “Görmeden karar verme!” sloganına dayanır. Kullanıcılara karar verme süreçlerinde görselleştirmenin gücünü sunarak duygusal bir bağ kurmayı amaçlar. İlk etapta Türkiye pazarına odaklanarak, ardından Avrupa ve Orta Doğu pazarına açılmayı hedefler. Ürün, bulut destekli bir SaaS (Software as a Service) modeliyle de sunulabilir. Bu sayede kullanıcılar donanım yatırımı yapmadan Projify’nin dijital platformundan faydalanabilir.
+
+### Akademik Perspektif ve Endüstri 4.0 Bağlantısı
+Projify, Endüstri 4.0 prensiplerine tam uyumlu bir girişimdir. Siber-fiziksel sistemlerin, nesnelerin internetinin (IoT) ve yapay zekânın birleşiminden doğmuştur. Bu proje, endüstriyel tasarım, bilişim teknolojileri, üretim planlama ve kullanıcı deneyimi tasarımı gibi birçok disiplinin kesişim noktasında yer alır. Bu yönüyle hem mühendislik hem de tasarım fakültelerinde araştırma ve eğitim amaçlı kullanılabilir.
+
+Projify ayrıca akıllı şehir konseptine katkı sağlayabilecek potansiyele sahiptir. Ev içi enerji verimliliğini planlamak, alan kullanımını optimize etmek veya engelli kullanıcıların mekânsal ihtiyaçlarını simüle etmek gibi toplumsal fayda odaklı alanlarda kullanılabilir.
+
+### Gelecek Vizyonu
+Projify’nin gelecekteki hedefi, yalnızca bir projeksiyon sistemi olmaktan çıkarak tam kapsamlı bir “mekân zekâsı” platformuna dönüşmektir. Yapay zekâ destekli nesne tanıma, sesli komut sistemleri, haptik geri bildirim ve artırılmış gerçeklik gözlükleriyle entegrasyon gibi özelliklerle gelişmeye devam edecektir. Uzun vadede kullanıcılar, yalnızca projektör üzerinden değil, mobil cihazlar ve AR/VR gözlükler aracılığıyla da kendi yaşam alanlarını tasarlayabileceklerdir.
+
+Projify ayrıca bir veri analitiği platformuna evrilmeyi planlamaktadır. Kullanıcıların tasarım tercihleri, renk kombinasyonları, mobilya seçimleri gibi veriler anonim şekilde toplanarak, endüstri trend analizlerinde kullanılabilir. Bu, iç mimarlık sektörüne veri odaklı karar alma olanağı sağlayacaktır.
+
+### Sonuç
+Projify, yalnızca bir ürün değil, yeni bir yaşam biçimi ve tasarım anlayışıdır. İnsanların mekân algısını yeniden tanımlayarak, hayal ettikleri yaşam alanlarını gerçek boyutlu olarak deneyimlemelerine olanak tanır. Tasarım sürecinde hata payını azaltır, üretim maliyetlerini düşürür ve kullanıcı deneyimini en üst düzeye çıkarır.
+
+Projify, teknolojinin insana hizmet ettiği, sürdürülebilir ve akıllı yaşam alanlarının öncüsü olmayı hedefler. Bu proje, mühendislik ile estetiğin, yazılım ile donanımın, dijital ile fiziksel dünyanın mükemmel birleşimidir. Kısacası Projify, “mekânı akılla şekillendiren” bir devrimdir.
