@@ -1,5 +1,5 @@
 python-dotenv==1.0.1
 streamlit==1.39.0
-haystack-ai==2.4.0
+haystack-ai==2.4.0          # 2.4.1 yok; 2.4.0 stabil
 google-generativeai==0.8.5
 jinja2==3.1.4
