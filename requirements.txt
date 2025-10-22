@@ -1,5 +1,10 @@
+numpy==1.26.4
 python-dotenv==1.0.1
 streamlit==1.39.0
-haystack-ai==2.4.0          # 2.4.1 yok; 2.4.0 stabil
 google-generativeai==0.8.5
-jinja2==3.1.4
+haystack-ai==2.4.0
+haystack-experimental==0.14.0
+chromadb==0.5.5
+tqdm==4.67.1
+pydantic==2.12.3
+rich==13.9.4
