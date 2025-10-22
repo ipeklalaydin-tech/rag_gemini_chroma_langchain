@@ -1,9 +1,20 @@
 # rag_gemini_chroma_langchain
-GAIH GenAI Bootcamp için Gemini 2.0 Flash ve Haystack kullanan RAG tabanlı sohbet robotu /  RAG-based chatbot using Gemini 2.0 Flash and Haystack for GAIH GenAI Bootcamp
+Akbank GenAI Bootcamp için Gemini 2.0 Flash ve Haystack kullanan RAG tabanlı sohbet robotu /  RAG-based chatbot using Gemini 2.0 Flash and Haystack for Akbank GenAI Bootcamp
 
 
 Kodun Amacı:
 Bu proje, RAG (Retrieval-Augmented Generation) yaklaşımıyla, endüstri mühendisliğimin projesinde merak edilen soruların parçaları bulup Gemini 2.0 Flash modeline bağlayarak cevap üreten bir sohbet uygulamasıdır. Vektör araması için Chroma, orkestrasyon için LangChain/Haystack bileşenleri ve arayüz için Streamlit kullanılır. Depoya ait dosyaların iskeleti GitHub’da şu şekilde görülür: app.py, config.py, data_processing.py, rag_pipeline.py, requirements.txt, data/ (örnek içerik klasörü).
+
+## 🖼️ Uygulama Arayüzü Görselleri
+
+Aşağıda, **Projify RAG + Gemini + Chroma** tabanlı soru-cevap sisteminin Streamlit arayüzü örnekleri yer almaktadır.  
+Uygulama, kullanıcıdan gelen metin sorularını alır ve Gemini 2.0 Flash modeliyle anlamlı yanıtlar üretir.
+
+### 🔹 Soru Girişi Arayüzü
+![Projify Demo 1](Akbank_proje_foto.png)
+
+### 🔹 Yanıt Alındıktan Sonraki Görünüm
+![Projify Demo 2](Akbank_proje_foto_2.png)
 
 
 Veri hazırlama: dosyalar data/ altında toplanır -> temizlenir -> parçalara bölünür (chunk) -> embedding’leri hesaplanır -> Chroma vektör veritabanına yazılır.
@@ -47,3 +58,6 @@ Amaç, modeli sadece ezberlenmiş bilgilere değil, güncel ve güvenilir kaynak
 1) Vektör Veritabanı- Belgeler embedding’lere dönüştürülüp vektör formatında saklanır. Kullanıcının sorusu da aynı şekilde embedding’e çevrilir ve en benzer içerikler (context) bulunur
 2) LLM - Model, yalnızca soruya değil; getirilen bağlam (context) parçalarına da dayanarak yanıt üretir. Böylece doğruluk artar, halüsinasyon azalır
 3) Orkestrasyon -Tüm süreç — belge yükleme -> metin parçalama -> embedding hesaplama -> retrieval -> prompt oluşturma -> yanıt üretimi — adımlarını bir zincir halinde birleştirir. Bu, projeyi modüler ve genişletilebilir hale getirir
+
+## Uygulamayı canlı olarak buradan deneyebilirsin:    
+👉 [https://raggeminichromalangchain-9ycdsa4dtycxvkjwndxhk4.streamlit.app/](https://raggeminichromalangchain-9ycdsa4dtycxvkjwndxhk4.streamlit.app/)
