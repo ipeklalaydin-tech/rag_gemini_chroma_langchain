@@ -2,8 +2,7 @@ import os
 import streamlit as st
 
 st.set_page_config(page_title="RAG Gemini Chroma", layout="wide")
-st.title("RAG + Gemini + Chroma (Demo)")
-st.write("✅ App boot başladı")
+st.title("Soru Cevaplama Arayüzü")
 
 # --- 1) Secrets / Env kontrolü ---
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
@@ -15,7 +14,7 @@ if not GOOGLE_API_KEY:
 try:
     import google.generativeai as genai
     genai.configure(api_key=GOOGLE_API_KEY)
-    st.write("✅ Google GenAI hazır")
+    
 except Exception as e:
     st.exception(e)
     st.stop()
@@ -68,14 +67,14 @@ def get_vector_store():
 
 try:
     vs = get_vector_store()
-    st.write("✅ Vektör veritabanı hazır")
+    
 except Exception as e:
     st.exception(e)
     st.stop()
 
 # --- 5) Arayüz ---
-st.subheader("Hızlı Soru-Cevap (Gemini)")
-default_prompt = "Merhaba! Bu bir sağlık kontrolü sorusu. Kısaca yanıt verir misin?"
+st.subheader("Soru Cevap")
+default_prompt = "Projify projesi ile ilgili sorunuzu sorun. "
 user_prompt = st.text_area("Sorunuzu yazın:", value=default_prompt, height=120)
 
 col1, col2 = st.columns([2,1])
@@ -105,3 +104,4 @@ if st.button("Çalıştır"):
         st.exception(e)
 
 st.caption("Not: RAG tarafını (Chroma/Haystack) adım adım ekleyebiliriz; bu iskelet, önce uygulamanın stabil açıldığını doğrulamak içindir.")
+
